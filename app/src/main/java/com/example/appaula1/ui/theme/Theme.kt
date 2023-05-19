@@ -14,6 +14,9 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
+import android.content.res.Configuration
+import androidx.compose.ui.tooling.preview.Preview
+
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
@@ -66,5 +69,7 @@ fun AppAula1Theme(
         colorScheme = colorScheme,
         typography = Typography,
         content = content
+
     )
+
 }
